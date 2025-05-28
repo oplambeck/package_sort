@@ -78,6 +78,7 @@ class TestSort(unittest.TestCase):
 
 
 if __name__ == '__main__':
+    # ADD NEW TEST CALLS TO sort() HERE
+    
     unittest.main()
-
 
