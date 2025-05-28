@@ -39,7 +39,7 @@ def sort(width: float, height: float, length: float, mass: float) -> str:
 
     if bulky and heavy:
         return REJECTED
-    if bulky or heavy:
+    elif bulky or heavy:
         return SPECIAL
     else:
         return STANDARD
